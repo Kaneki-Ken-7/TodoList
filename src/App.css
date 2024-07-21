@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*,:root{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+body{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  height: 100dvh;
+  width: 100dvw;
+  background-color: #efefef;
+  font-style: normal;
+}
+
+main{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+header{
+  font-size: xx-large;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+}
+.strike{
+  text-decoration: line-through;
+}
