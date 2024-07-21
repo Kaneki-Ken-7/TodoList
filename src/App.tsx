@@ -40,7 +40,7 @@ function App() {
   }
 
   const handleDelete = (id:number)=>{
-    settodos(prev=> prev.filter((val,index)=> index!== id))
+    settodos(prev=> prev.filter((_val,index)=> index!== id))
   }
   function handleComplete(value:TodoList,id: number): void {
     let data: TodoList = {
